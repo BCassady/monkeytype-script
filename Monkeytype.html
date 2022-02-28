@@ -179,23 +179,17 @@ and search for "Clear SW cache".
 </div>
 <div id="ad_rich_media" class="hidden"></div>
 <div id="backgroundLoader" style="display: none"></div>
-<div id="bannerCenter">
-        <div class="banner good" id="0">
-        <div class="container">
-          <div class="image" style="background-image: url(images/merchdropwebsite2.png)"></div>
-          <div class="text">
-            Checkout our merchandise, available at <a target="_blank" href="https://monkeytype.store/">monkeytype.store</a>
-          </div>
+<div id="bannerCenter"></div>
+<div id="notificationCenter">
+<div class="history" style="margin-top: 0px;">
           
-          <div class="closeButton">
-            <i class="fas fa-fw fa-times"></i>
-          </div>
+                       
+
+              
           
-        </div>
-      </div>
-      </div>
-<div id="notificationCenter" style="margin-top: 37.5px;">
-<div class="history"></div>
+               
+
+          </div>
 </div>
 <div class="nameChangeMessage" style="
         background-color: var(--main-color);
@@ -521,7 +515,7 @@ to lose access to this feature
 <input id="submitQuoteSource" class="" type="text" autocomplete="off">
 <label>Language</label>
 <select name="language" id="submitQuoteLanguage"></select>
-<div class="g-recaptcha" data-sitekey="6Lc-V8McAAAAAJ7s6LGNe7MBZnRiwbsbiWts87aj"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" src="./Monkeytype_files/anchor.html" width="304" height="78" role="presentation" name="a-4p1bodvyo060" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div></div>
+<div class="g-recaptcha" data-sitekey="6Lc-V8McAAAAAJ7s6LGNe7MBZnRiwbsbiWts87aj"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" src="./Monkeytype_files/anchor.html" width="304" height="78" role="presentation" name="a-tx17li17d61b" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div></div>
 <div id="submitQuoteButton" class="button">Submit</div>
 </div>
 </div>
@@ -546,7 +540,7 @@ access to this feature.
 <textarea class="comment" type="text" autocomplete="off"></textarea>
  <div class="characterCount">-</div>
 </div>
-<div class="g-recaptcha" data-sitekey="6Lc-V8McAAAAAJ7s6LGNe7MBZnRiwbsbiWts87aj"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" src="./Monkeytype_files/anchor(1).html" width="304" height="78" role="presentation" name="a-j38gxmlglduu" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response-1" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;" src="./Monkeytype_files/saved_resource(2).html"></iframe></div>
+<div class="g-recaptcha" data-sitekey="6Lc-V8McAAAAAJ7s6LGNe7MBZnRiwbsbiWts87aj"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" src="./Monkeytype_files/anchor(1).html" width="304" height="78" role="presentation" name="a-jth5ri6mfg2g" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response-1" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;" src="./Monkeytype_files/saved_resource(2).html"></iframe></div>
 <div class="button submit">Report</div>
 </div>
 </div>
@@ -587,7 +581,7 @@ Change preset to current settings
 <div class="button"><i class="fas fa-plus"></i></div>
 </div>
 </div>
-<div id="leaderboardsWrapper" class="popupWrapper hidden">
+<div id="leaderboardsWrapper" class="popupWrapper hidden" style="opacity: 0;">
 <div id="leaderboards">
 <div class="leaderboardsTop">
 <div class="mainTitle">Leaderboards</div>
@@ -599,30 +593,26 @@ Change preset to current settings
 <div class="titleAndButtons">
 <div class="title">
 English Time 15
-<i class="hidden leftTableLoader fas fa-fw fa-spin fa-circle-notch"></i>
+<i class="leftTableLoader fas fa-fw fa-spin fa-circle-notch hidden"></i>
 </div>
 <div class="buttons">
 <div class="button leftTableJumpToTop">
 <i class="fas fa-fw fas fa-crown"></i>
 
 </div>
-<div class="button leftTableJumpToMe">
+<div class="button leftTableJumpToMe disabled">
 <i class="fas fa-fw fas fa-user"></i>
 
 </div>
 </div>
 </div>
-<div class="leftTableWrapper invisible">
+<div class="leftTableWrapper">
 <table class="left">
 <thead>
 <tr>
 <td width="1%">#</td>
 <td>name</td>
-<td class="alignRight" width="15%">
-wpm
-<br>
-<div class="sub">accuracy</div>
-</td>
+<td class="alignRight" width="15%">wpm<br><div class="sub">accuracy</div></td>
 <td class="alignRight" width="15%">
 raw
 <br>
@@ -641,30 +631,26 @@ raw
 <div class="titleAndButtons">
 <div class="title">
 English Time 60
-<i class="hidden rightTableLoader fas fa-fw fa-spin fa-circle-notch"></i>
+<i class="rightTableLoader fas fa-fw fa-spin fa-circle-notch hidden"></i>
 </div>
 <div class="buttons">
 <div class="button rightTableJumpToTop">
 <i class="fas fa-fw fas fa-crown"></i>
 
 </div>
-<div class="button rightTableJumpToMe">
+<div class="button rightTableJumpToMe disabled">
 <i class="fas fa-fw fas fa-user"></i>
 
 </div>
 </div>
 </div>
-<div class="rightTableWrapper invisible">
+<div class="rightTableWrapper">
 <table class="right">
 <thead>
 <tr>
 <td width="1%">#</td>
 <td>name</td>
-<td class="alignRight" width="15%">
-wpm
-<br>
-<div class="sub">accuracy</div>
-</td>
+<td class="alignRight" width="15%">wpm<br><div class="sub">accuracy</div></td>
 <td class="alignRight" width="15%">
 raw
 <br>
@@ -983,7 +969,7 @@ personal bests - you can do that in the settings page.
 <div id="timer" class="timerMain"></div>
 </div>
 <div style="display: flex; justify-content: space-around">
-<div id="centerContent" class="" style="padding-top: 69.5px; opacity: 1;">
+<div id="centerContent" class="" style="opacity: 1;">
 <div id="top" class="">
 <div class="logo">
 <div class="icon">
@@ -1166,19 +1152,19 @@ sign out
 </div>
 </div>
 <div class="page pageTest active" style="opacity: 1;">
-<div id="typingTest" style="opacity: 1;">
+<div id="typingTest" style="opacity: 1;" class="">
 <div id="capsWarning" class="hidden">
 <i class="fas fa-lock"></i>
 Caps Lock
 </div>
 <div id="memoryTimer" style="opacity: 0;">Time left to memorise all words: 0s</div>
-<div id="testModesNotice" style="transition: all 0.125s ease 0s; opacity: 1;"><div class="text-button" commands="commandsLanguages"><i class="fas fa-globe-americas"></i>english</div></div>
+<div id="testModesNotice" style="transition: all 0.125s ease 0s; opacity: 1;" class=""><div class="text-button" commands="commandsLanguages"><i class="fas fa-globe-americas"></i>english</div></div>
 <input id="wordsInput" class="" tabindex="0" type="text" autocomplete="off" autocapitalize="off" autocorrect="off">
 <div id="timerNumber" class="timerMain" style="opacity: 0;">
 <div>60</div>
 </div>
 <div id="miniTimerAndLiveWpm" class="size15 timerMain">
-<div class="time hidden" style="opacity: 0;">1:00</div>
+<div class="time hidden" style="opacity: 0;">0</div>
 <div class="wpm hidden" style="opacity: 1;">0</div>
 <div class="acc hidden" style="opacity: 1;">100%</div>
 <div class="burst hidden" style="opacity: 1;">0</div>
@@ -1188,9 +1174,9 @@ Caps Lock
 Click or press any key to focus
 </div>
 <div id="wordsWrapper" translate="no" style="height: 117.106px; overflow: hidden;">
-<div id="paceCaret" class="hidden size15 default"></div>
+<div id="paceCaret" class="hidden size15 default" style="top: -39.0353px;"></div>
 <div id="caret" class="size15 default" style="animation-name: caretFlashSmooth; opacity: 1; top: 1px; left: 5px;"></div>
-<div id="words" class="size15" style="height: 156.141px; overflow: hidden; transition: none 0s ease 0s;"><div class="word active"><letter>w</letter><letter>i</letter><letter>l</letter><letter>l</letter></div><div class="word"><letter>t</letter><letter>h</letter><letter>e</letter></div><div class="word"><letter>f</letter><letter>a</letter><letter>c</letter><letter>t</letter></div><div class="word"><letter>o</letter><letter>w</letter><letter>n</letter></div><div class="word"><letter>g</letter><letter>i</letter><letter>v</letter><letter>e</letter></div><div class="word"><letter>d</letter><letter>u</letter><letter>r</letter><letter>i</letter><letter>n</letter><letter>g</letter></div><div class="word"><letter>p</letter><letter>o</letter><letter>i</letter><letter>n</letter><letter>t</letter></div><div class="word"><letter>r</letter><letter>u</letter><letter>n</letter></div><div class="word"><letter>b</letter><letter>e</letter></div><div class="word"><letter>h</letter><letter>o</letter><letter>w</letter></div><div class="word"><letter>p</letter><letter>l</letter><letter>a</letter><letter>y</letter></div><div class="word"><letter>f</letter><letter>i</letter><letter>n</letter><letter>d</letter></div><div class="word"><letter>w</letter><letter>o</letter><letter>r</letter><letter>l</letter><letter>d</letter></div><div class="word"><letter>a</letter></div><div class="word"><letter>g</letter><letter>o</letter></div><div class="word"><letter>g</letter><letter>o</letter><letter>o</letter><letter>d</letter></div><div class="word"><letter>f</letter><letter>o</letter><letter>r</letter><letter>m</letter></div><div class="word"><letter>p</letter><letter>r</letter><letter>e</letter><letter>s</letter><letter>e</letter><letter>n</letter><letter>t</letter></div><div class="word"><letter>a</letter><letter>n</letter><letter>o</letter><letter>t</letter><letter>h</letter><letter>e</letter><letter>r</letter></div><div class="word"><letter>b</letter><letter>e</letter></div><div class="word"><letter>s</letter><letter>o</letter><letter>m</letter><letter>e</letter></div><div class="word"><letter>e</letter><letter>a</letter><letter>c</letter><letter>h</letter></div><div class="word"><letter>g</letter><letter>r</letter><letter>o</letter><letter>u</letter><letter>p</letter></div><div class="word"><letter>h</letter><letter>e</letter><letter>l</letter><letter>p</letter></div><div class="word"><letter>u</letter><letter>p</letter></div><div class="word"><letter>s</letter><letter>i</letter><letter>n</letter><letter>c</letter><letter>e</letter></div><div class="word"><letter>f</letter><letter>i</letter><letter>n</letter><letter>d</letter></div><div class="word"><letter>c</letter><letter>h</letter><letter>a</letter><letter>n</letter><letter>g</letter><letter>e</letter></div><div class="word"><letter>h</letter><letter>i</letter><letter>g</letter><letter>h</letter></div><div class="word"><letter>b</letter><letter>o</letter><letter>t</letter><letter>h</letter></div><div class="word"><letter>s</letter><letter>u</letter><letter>c</letter><letter>h</letter></div><div class="word"><letter>l</letter><letter>e</letter><letter>a</letter><letter>v</letter><letter>e</letter></div><div class="word"><letter>a</letter><letter>n</letter><letter>y</letter></div><div class="word"><letter>b</letter><letter>e</letter><letter>f</letter><letter>o</letter><letter>r</letter><letter>e</letter></div><div class="word"><letter>m</letter><letter>a</letter><letter>y</letter></div><div class="word"><letter>s</letter><letter>e</letter><letter>e</letter><letter>m</letter></div><div class="word"><letter>t</letter><letter>o</letter></div><div class="word"><letter>a</letter><letter>s</letter></div><div class="word"><letter>g</letter><letter>r</letter><letter>e</letter><letter>a</letter><letter>t</letter></div><div class="word"><letter>u</letter><letter>p</letter></div><div class="word"><letter>s</letter><letter>m</letter><letter>a</letter><letter>l</letter><letter>l</letter></div><div class="word"><letter>s</letter><letter>o</letter></div><div class="word"><letter>p</letter><letter>e</letter><letter>o</letter><letter>p</letter><letter>l</letter><letter>e</letter></div><div class="word"><letter>m</letter><letter>a</letter><letter>n</letter></div><div class="word"><letter>d</letter><letter>e</letter><letter>v</letter><letter>e</letter><letter>l</letter><letter>o</letter><letter>p</letter></div><div class="word"><letter>p</letter><letter>u</letter><letter>b</letter><letter>l</letter><letter>i</letter><letter>c</letter></div><div class="word"><letter>h</letter><letter>a</letter><letter>v</letter><letter>e</letter></div><div class="word"><letter>f</letter><letter>o</letter><letter>r</letter></div><div class="word"><letter>l</letter><letter>i</letter><letter>k</letter><letter>e</letter></div><div class="word"><letter>s</letter><letter>h</letter><letter>o</letter><letter>w</letter></div><div class="word"><letter>h</letter><letter>i</letter><letter>g</letter><letter>h</letter></div><div class="word"><letter>u</letter><letter>p</letter></div><div class="word"><letter>n</letter><letter>e</letter><letter>w</letter></div><div class="word"><letter>a</letter><letter>f</letter><letter>t</letter><letter>e</letter><letter>r</letter></div><div class="word"><letter>a</letter><letter>b</letter><letter>o</letter><letter>u</letter><letter>t</letter></div><div class="word"><letter>t</letter><letter>h</letter><letter>a</letter><letter>n</letter></div><div class="word"><letter>w</letter><letter>h</letter><letter>e</letter><letter>r</letter><letter>e</letter></div><div class="word"><letter>s</letter><letter>h</letter><letter>o</letter><letter>w</letter></div><div class="word"><letter>l</letter><letter>e</letter><letter>a</letter><letter>d</letter></div><div class="word"><letter>a</letter><letter>n</letter><letter>y</letter></div><div class="word"><letter>p</letter><letter>e</letter><letter>o</letter><letter>p</letter><letter>l</letter><letter>e</letter></div><div class="word"><letter>n</letter><letter>o</letter></div><div class="word"><letter>c</letter><letter>o</letter><letter>m</letter><letter>e</letter></div><div class="word"><letter>d</letter><letter>o</letter></div><div class="word"><letter>f</letter><letter>i</letter><letter>r</letter><letter>s</letter><letter>t</letter></div><div class="word"><letter>m</letter><letter>o</letter><letter>s</letter><letter>t</letter></div><div class="word"><letter>b</letter><letter>e</letter><letter>c</letter><letter>o</letter><letter>m</letter><letter>e</letter></div><div class="word"><letter>b</letter><letter>e</letter><letter>f</letter><letter>o</letter><letter>r</letter><letter>e</letter></div><div class="word"><letter>l</letter><letter>a</letter><letter>s</letter><letter>t</letter></div><div class="word"><letter>i</letter><letter>n</letter></div><div class="word"><letter>g</letter><letter>r</letter><letter>o</letter><letter>u</letter><letter>p</letter></div><div class="word"><letter>u</letter><letter>s</letter><letter>e</letter></div><div class="word"><letter>p</letter><letter>u</letter><letter>b</letter><letter>l</letter><letter>i</letter><letter>c</letter></div><div class="word"><letter>m</letter><letter>e</letter><letter>a</letter><letter>n</letter></div><div class="word"><letter>d</letter><letter>o</letter><letter>w</letter><letter>n</letter></div><div class="word"><letter>a</letter><letter>n</letter><letter>y</letter></div><div class="word"><letter>t</letter><letter>h</letter><letter>a</letter><letter>n</letter></div><div class="word"><letter>y</letter><letter>o</letter><letter>u</letter></div><div class="word"><letter>n</letter><letter>o</letter></div><div class="word"><letter>a</letter><letter>g</letter><letter>a</letter><letter>i</letter><letter>n</letter><letter>s</letter><letter>t</letter></div><div class="word"><letter>a</letter><letter>s</letter><letter>k</letter></div><div class="word"><letter>h</letter><letter>e</letter><letter>r</letter><letter>e</letter></div><div class="word"><letter>w</letter><letter>h</letter><letter>o</letter></div><div class="word"><letter>w</letter><letter>o</letter><letter>r</letter><letter>k</letter></div><div class="word"><letter>i</letter><letter>n</letter><letter>c</letter><letter>r</letter><letter>e</letter><letter>a</letter><letter>s</letter><letter>e</letter></div><div class="word"><letter>l</letter><letter>o</letter><letter>o</letter><letter>k</letter></div><div class="word"><letter>t</letter><letter>h</letter><letter>i</letter><letter>n</letter><letter>k</letter></div><div class="word"><letter>t</letter><letter>h</letter><letter>o</letter><letter>s</letter><letter>e</letter></div><div class="word"><letter>p</letter><letter>e</letter><letter>o</letter><letter>p</letter><letter>l</letter><letter>e</letter></div><div class="word"><letter>h</letter><letter>a</letter><letter>v</letter><letter>e</letter></div><div class="word"><letter>w</letter><letter>h</letter><letter>e</letter><letter>r</letter><letter>e</letter></div><div class="word"><letter>f</letter><letter>o</letter><letter>r</letter><letter>m</letter></div><div class="word"><letter>s</letter><letter>t</letter><letter>i</letter><letter>l</letter><letter>l</letter></div><div class="word"><letter>h</letter><letter>i</letter><letter>g</letter><letter>h</letter></div><div class="word"><letter>m</letter><letter>a</letter><letter>y</letter></div><div class="word"><letter>s</letter><letter>e</letter><letter>t</letter></div><div class="word"><letter>b</letter><letter>u</letter><letter>t</letter></div><div class="word"><letter>o</letter><letter>f</letter></div><div class="word"><letter>w</letter><letter>a</letter><letter>y</letter></div><div class="word"><letter>t</letter><letter>i</letter><letter>m</letter><letter>e</letter></div></div>
+<div id="words" class="size15" style="height: 156.141px; overflow: hidden; transition: none 0s ease 0s;"><div class="word active"><letter>e</letter><letter>a</letter><letter>c</letter><letter>h</letter></div><div class="word"><letter>a</letter><letter>t</letter></div><div class="word"><letter>t</letter><letter>h</letter><letter>e</letter><letter>s</letter><letter>e</letter></div><div class="word"><letter>t</letter><letter>h</letter><letter>e</letter><letter>n</letter></div><div class="word"><letter>d</letter><letter>o</letter><letter>w</letter><letter>n</letter></div><div class="word"><letter>b</letter><letter>e</letter><letter>f</letter><letter>o</letter><letter>r</letter><letter>e</letter></div><div class="word"><letter>t</letter><letter>e</letter><letter>l</letter><letter>l</letter></div><div class="word"><letter>a</letter><letter>t</letter></div><div class="word"><letter>a</letter><letter>l</letter><letter>s</letter><letter>o</letter></div><div class="word"><letter>b</letter><letter>a</letter><letter>c</letter><letter>k</letter></div><div class="word"><letter>m</letter><letter>a</letter><letter>n</letter><letter>y</letter></div><div class="word"><letter>a</letter><letter>s</letter><letter>k</letter></div><div class="word"><letter>s</letter><letter>u</letter><letter>c</letter><letter>h</letter></div><div class="word"><letter>o</letter><letter>v</letter><letter>e</letter><letter>r</letter></div><div class="word"><letter>s</letter><letter>t</letter><letter>a</letter><letter>t</letter><letter>e</letter></div><div class="word"><letter>m</letter><letter>i</letter><letter>g</letter><letter>h</letter><letter>t</letter></div><div class="word"><letter>s</letter><letter>e</letter><letter>t</letter></div><div class="word"><letter>h</letter><letter>a</letter><letter>n</letter><letter>d</letter></div><div class="word"><letter>s</letter><letter>h</letter><letter>o</letter><letter>w</letter></div><div class="word"><letter>s</letter><letter>o</letter></div><div class="word"><letter>m</letter><letter>a</letter><letter>k</letter><letter>e</letter></div><div class="word"><letter>c</letter><letter>a</letter><letter>l</letter><letter>l</letter></div><div class="word"><letter>t</letter><letter>h</letter><letter>e</letter><letter>y</letter></div><div class="word"><letter>h</letter><letter>e</letter><letter>r</letter><letter>e</letter></div><div class="word"><letter>g</letter><letter>e</letter><letter>n</letter><letter>e</letter><letter>r</letter><letter>a</letter><letter>l</letter></div><div class="word"><letter>m</letter><letter>a</letter><letter>y</letter></div><div class="word"><letter>m</letter><letter>o</letter><letter>s</letter><letter>t</letter></div><div class="word"><letter>w</letter><letter>h</letter><letter>i</letter><letter>l</letter><letter>e</letter></div><div class="word"><letter>a</letter><letter>n</letter><letter>y</letter></div><div class="word"><letter>b</letter><letter>o</letter><letter>t</letter><letter>h</letter></div><div class="word"><letter>t</letter><letter>o</letter><letter>o</letter></div><div class="word"><letter>f</letter><letter>o</letter><letter>r</letter></div><div class="word"><letter>l</letter><letter>a</letter><letter>t</letter><letter>e</letter></div><div class="word"><letter>s</letter><letter>u</letter><letter>c</letter><letter>h</letter></div><div class="word"><letter>s</letter><letter>e</letter><letter>e</letter><letter>m</letter></div><div class="word"><letter>r</letter><letter>u</letter><letter>n</letter></div><div class="word"><letter>s</letter><letter>y</letter><letter>s</letter><letter>t</letter><letter>e</letter><letter>m</letter></div><div class="word"><letter>h</letter><letter>a</letter><letter>v</letter><letter>e</letter></div><div class="word"><letter>b</letter><letter>e</letter></div><div class="word"><letter>h</letter><letter>o</letter><letter>m</letter><letter>e</letter></div><div class="word"><letter>s</letter><letter>o</letter></div><div class="word"><letter>b</letter><letter>e</letter><letter>f</letter><letter>o</letter><letter>r</letter><letter>e</letter></div><div class="word"><letter>f</letter><letter>e</letter><letter>w</letter></div><div class="word"><letter>w</letter><letter>h</letter><letter>i</letter><letter>l</letter><letter>e</letter></div><div class="word"><letter>g</letter><letter>o</letter></div><div class="word"><letter>t</letter><letter>h</letter><letter>o</letter><letter>s</letter><letter>e</letter></div><div class="word"><letter>s</letter><letter>a</letter><letter>y</letter></div><div class="word"><letter>l</letter><letter>e</letter><letter>a</letter><letter>d</letter></div><div class="word"><letter>b</letter><letter>y</letter></div><div class="word"><letter>o</letter><letter>r</letter><letter>d</letter><letter>e</letter><letter>r</letter></div><div class="word"><letter>h</letter><letter>o</letter><letter>w</letter><letter>e</letter><letter>v</letter><letter>e</letter><letter>r</letter></div><div class="word"><letter>p</letter><letter>e</letter><letter>o</letter><letter>p</letter><letter>l</letter><letter>e</letter></div><div class="word"><letter>w</letter><letter>h</letter><letter>a</letter><letter>t</letter></div><div class="word"><letter>n</letter><letter>e</letter><letter>w</letter></div><div class="word"><letter>w</letter><letter>i</letter><letter>t</letter><letter>h</letter><letter>o</letter><letter>u</letter><letter>t</letter></div><div class="word"><letter>s</letter><letter>c</letter><letter>h</letter><letter>o</letter><letter>o</letter><letter>l</letter></div><div class="word"><letter>b</letter><letter>e</letter><letter>f</letter><letter>o</letter><letter>r</letter><letter>e</letter></div><div class="word"><letter>l</letter><letter>a</letter><letter>s</letter><letter>t</letter></div><div class="word"><letter>u</letter><letter>n</letter><letter>d</letter><letter>e</letter><letter>r</letter></div><div class="word"><letter>w</letter><letter>o</letter><letter>r</letter><letter>d</letter></div><div class="word"><letter>s</letter><letter>h</letter><letter>o</letter><letter>u</letter><letter>l</letter><letter>d</letter></div><div class="word"><letter>l</letter><letter>i</letter><letter>k</letter><letter>e</letter></div><div class="word"><letter>t</letter><letter>h</letter><letter>a</letter><letter>t</letter></div><div class="word"><letter>b</letter><letter>u</letter><letter>t</letter></div><div class="word"><letter>s</letter><letter>e</letter><letter>e</letter></div><div class="word"><letter>s</letter><letter>a</letter><letter>y</letter></div><div class="word"><letter>t</letter><letter>h</letter><letter>a</letter><letter>n</letter></div><div class="word"><letter>w</letter><letter>o</letter><letter>r</letter><letter>d</letter></div><div class="word"><letter>s</letter><letter>e</letter><letter>e</letter><letter>m</letter></div><div class="word"><letter>s</letter><letter>e</letter><letter>t</letter></div><div class="word"><letter>d</letter><letter>u</letter><letter>r</letter><letter>i</letter><letter>n</letter><letter>g</letter></div><div class="word"><letter>f</letter><letter>o</letter><letter>r</letter><letter>m</letter></div><div class="word"><letter>c</letter><letter>o</letter><letter>m</letter><letter>e</letter></div><div class="word"><letter>n</letter><letter>o</letter></div><div class="word"><letter>v</letter><letter>e</letter><letter>r</letter><letter>y</letter></div><div class="word"><letter>o</letter><letter>r</letter><letter>d</letter><letter>e</letter><letter>r</letter></div><div class="word"><letter>h</letter><letter>o</letter><letter>w</letter><letter>e</letter><letter>v</letter><letter>e</letter><letter>r</letter></div><div class="word"><letter>p</letter><letter>r</letter><letter>o</letter><letter>b</letter><letter>l</letter><letter>e</letter><letter>m</letter></div><div class="word"><letter>w</letter><letter>o</letter><letter>r</letter><letter>k</letter></div><div class="word"><letter>t</letter><letter>h</letter><letter>e</letter><letter>r</letter><letter>e</letter></div><div class="word"><letter>i</letter><letter>n</letter><letter>t</letter><letter>e</letter><letter>r</letter><letter>e</letter><letter>s</letter><letter>t</letter></div><div class="word"><letter>w</letter><letter>h</letter><letter>i</letter><letter>c</letter><letter>h</letter></div><div class="word"><letter>t</letter><letter>h</letter><letter>e</letter><letter>r</letter><letter>e</letter></div><div class="word"><letter>g</letter><letter>r</letter><letter>e</letter><letter>a</letter><letter>t</letter></div><div class="word"><letter>s</letter><letter>a</letter><letter>m</letter><letter>e</letter></div><div class="word"><letter>s</letter><letter>m</letter><letter>a</letter><letter>l</letter><letter>l</letter></div><div class="word"><letter>t</letter><letter>o</letter></div><div class="word"><letter>y</letter><letter>e</letter><letter>a</letter><letter>r</letter></div><div class="word"><letter>h</letter><letter>a</letter><letter>v</letter><letter>e</letter></div><div class="word"><letter>e</letter><letter>a</letter><letter>r</letter><letter>l</letter><letter>y</letter></div><div class="word"><letter>a</letter><letter>n</letter><letter>d</letter></div><div class="word"><letter>t</letter><letter>h</letter><letter>e</letter><letter>n</letter></div><div class="word"><letter>s</letter><letter>m</letter><letter>a</letter><letter>l</letter><letter>l</letter></div><div class="word"><letter>w</letter><letter>o</letter><letter>r</letter><letter>l</letter><letter>d</letter></div><div class="word"><letter>l</letter><letter>i</letter><letter>k</letter><letter>e</letter></div><div class="word"><letter>m</letter><letter>u</letter><letter>s</letter><letter>t</letter></div><div class="word"><letter>t</letter><letter>h</letter><letter>i</letter><letter>s</letter></div><div class="word"><letter>l</letter><letter>o</letter><letter>o</letter><letter>k</letter></div><div class="word"><letter>s</letter><letter>e</letter><letter>e</letter><letter>m</letter></div><div class="word"><letter>s</letter><letter>m</letter><letter>a</letter><letter>l</letter><letter>l</letter></div></div>
 </div>
 <div id="keymap" class="hidden staggered"><div class="row r2"><div></div><div class="keymap-key" data-key="qQ">
               <span class="letter">q</span>
@@ -1319,7 +1305,7 @@ Click or press any key to focus
 <div id="premidTestMode" class="hidden">time 15 english</div>
 <div id="premidSecondsLeft" class="hidden">15</div>
 </div>
-<div id="result" tabindex="0" class="hidden">
+<div id="result" tabindex="0" class="hidden" style="opacity: 0;">
 <div class="stats">
 
 <div class="group wpm">
@@ -1329,57 +1315,47 @@ Click or press any key to focus
 <i class="fas fa-crown"></i>
 </div>
 </div>
-<div class="bottom" aria-label="" data-balloon-pos="up">
--
-</div>
+<div class="bottom" aria-label="416 (2080 cpm)" data-balloon-pos="up">416</div>
 </div>
 <div class="group acc">
 <div class="top">acc</div>
-<div class="bottom" aria-label="" data-balloon-pos="up">
--
-</div>
+<div class="bottom" aria-label="100%" data-balloon-pos="up">100%</div>
 </div>
 </div>
 <div class="stats morestats">
 <div class="group testType">
 <div class="top">test type</div>
-<div class="bottom">-</div>
+<div class="bottom">time 15<br>english</div>
 <div class="tags hidden" style="margin-top: 0.5rem">
 <div class="top">tags</div>
-<div class="bottom">-</div>
+<div class="bottom"></div>
 </div>
 </div>
 
 <div class="group info">
 <div class="top">other</div>
-<div class="bottom">-</div>
+<div class="bottom">invalid (wpm)</div>
 </div>
 
 
 <div class="group raw">
 <div class="top">raw</div>
-<div class="bottom" aria-label="" data-balloon-pos="up">
--
-</div>
+<div class="bottom" aria-label="416" data-balloon-pos="up">416</div>
 </div>
 <div class="group key">
 <div class="top">characters</div>
-<div class="bottom" aria-label="correct, incorrect, extra, and missed" data-balloon-break="" data-balloon-pos="up">
--
-</div>
+<div class="bottom" aria-label="correct, incorrect, extra, and missed" data-balloon-break="" data-balloon-pos="up">520/0/0/0</div>
 </div>
 
 
 <div class="group flat consistency">
 <div class="top">consistency</div>
-<div class="bottom" aria-label="" data-balloon-pos="up">
-2 -
- </div>
+<div class="bottom" aria-label="98.64% (90.9% key)" data-balloon-pos="up">99%</div>
 </div>
 <div class="group time">
 <div class="top">time</div>
-<div class="bottom" aria-label="" data-balloon-pos="up">
-<div class="text">-</div>
+<div class="bottom" aria-label="15s (0s afk 0%)" data-balloon-pos="up">
+<div class="text">15s</div>
 <div class="afk"></div>
 <div class="timeToday"></div>
 </div>
@@ -1399,9 +1375,9 @@ source
 <div class="bottom">-</div>
 </div>
 </div>
-<div class="chart">
+<div class="chart"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
 
-<canvas id="wpmChart" height="0" width="0" class="chartjs-render-monitor" style="display: block; height: 0px; width: 0px;"></canvas>
+<canvas id="wpmChart" height="400" width="1534" class="chartjs-render-monitor" style="display: block; height: 200px; width: 767px;"></canvas>
 </div>
 <div class="loginTip">
 <span class="link">Sign in</span>
@@ -1444,7 +1420,7 @@ watch replay
 </div>
 </div>
 <div id="retrySavingResultButton" class="hidden" tabindex="0" onclick="this.blur();">
- <i class="fas fa-redo"></i>
+<i class="fas fa-redo"></i>
 Retry saving result
 </div>
 <div class="buttons">
@@ -1514,7 +1490,7 @@ Open the command line by pressing
 <key>ctrl/cmd</key>
 +
 <key>shift</key>
- +
++
 <key>p</key>
 or
 <key>esc</key>
@@ -1833,7 +1809,7 @@ focus on raw speed. If enabled, quick end is recommended.
 </div>
 <div class="buttons">
 <div class="button" blindmode="false" tabindex="0" onclick="this.blur();">
- off
+off
 </div>
 <div class="button" blindmode="true" tabindex="0" onclick="this.blur();">
 ⠀
@@ -1904,7 +1880,7 @@ threshold.
 </div>
 <div>
 <div class="inputAndButton">
- <input type="number" placeholder="min accuracy" class="input customMinAcc" tabindex="0" min="0" step="1" value="">
+<input type="number" placeholder="min accuracy" class="input customMinAcc" tabindex="0" min="0" step="1" value="">
 <div class="button save" tabindex="0" onclick="this.blur();">
 <i class="fas fa-save fa-fw"></i>
 </div>
@@ -1961,7 +1937,7 @@ off
 <div class="button" britishenglish="true" tabindex="0" onclick="this.blur();">
 on
 </div>
-</div>
+ </div>
 </div>
 </div>
 <div class="section language">
@@ -2044,7 +2020,7 @@ error. This feature ignores keys in locations
 <key>^</key>
 because many people use the other hand for those keys. If
 you're using external software to emulate your layout
-(including QMK), you should use the "keymap" mode - the
+ (including QMK), you should use the "keymap" mode - the
 standard "on" will not work. This will enforce opposite shift
 based on the "keymap layout" setting.
 </div>
@@ -2110,7 +2086,7 @@ last incorrect entry with a space.
 <div class="button" quickend="false" tabindex="0" onclick="this.blur();">
 off
 </div>
-<div class="button" quickend="true" tabindex="0" onclick="this.blur();">
+ <div class="button" quickend="true" tabindex="0" onclick="this.blur();">
 on
 </div>
 </div>
@@ -2181,7 +2157,7 @@ on
 <div class="section layout">
 <h1>layout emulator</h1>
 <div class="text">
-With this setting you can emulate other layouts. This setting
+ With this setting you can emulate other layouts. This setting
 is best kept off, as it can break things like dead keys and
 alt layers.
 </div>
@@ -2312,7 +2288,7 @@ Displays a second caret that moves at constant speed. The
 <div class="inputAndButton">
 <input type="number" placeholder="wpm" class="input customPaceCaretSpeed" tabindex="0" min="0" step="1" value="">
 <div class="button save" tabindex="0" onclick="this.blur();">
- <i class="fas fa-save fa-fw"></i>
+<i class="fas fa-save fa-fw"></i>
 </div>
 </div>
 <div class="buttons">
@@ -2340,7 +2316,7 @@ does not override the pace caret if it's already enabled.
 </div>
 <div class="buttons">
 <div class="button" repeatedpace="false" tabindex="0" onclick="this.blur();">
-off
+ off
 </div>
 <div class="button" repeatedpace="true" tabindex="0" onclick="this.blur();">
 on
@@ -2807,7 +2783,7 @@ custom
 
 
 <div class="colorConverter"></div>
-<div class="tabContainer">
+ <div class="tabContainer">
 <div tabcontent="custom" class="tabContent section customTheme hidden">
 <label class="colorText">background</label>
 <div class="colorPicker inputAndButton">
@@ -2831,7 +2807,7 @@ custom
 <label class="colorText">caret</label>
 <div class="colorPicker inputAndButton">
 <input type="text" value="#000000" class="input" id="--caret-color-txt">
- <label for="--caret-color" class="button">
+<label for="--caret-color" class="button">
 <i class="fas fa-fw fa-palette"></i>
 </label>
 <input type="color" class="color" value="#000000" id="--caret-color">
@@ -3230,7 +3206,7 @@ Google Sign In
 wpm
 <br>
 <span class="sub">accuracy</span>
- </td>
+</td>
 <td width="33%">
 raw
 <br>
@@ -3281,7 +3257,7 @@ wpm
 <td width="33%">
 raw
 <br>
-<span class="sub">consistency</span>
+ <span class="sub">consistency</span>
 </td>
 <td width="33%">date</td>
 </tr>
@@ -3365,7 +3341,7 @@ last 3 months
 <div class="button" filter="time">time</div>
 <div class="button" filter="quote">quote</div>
 <div class="button" filter="zen">zen</div>
-<div class="button" filter="custom">custom</div>
+ <div class="button" filter="custom">custom</div>
 </div>
 </div>
 <div class="buttonsAndTitle">
@@ -3408,7 +3384,7 @@ last 3 months
 <div class="title">numbers</div>
 <div class="buttons filterGroup" group="numbers">
 <div class="button" filter="on">on</div>
- <div class="button" filter="off">off</div>
+<div class="button" filter="off">off</div>
 </div>
 </div>
 <div class="buttonsAndTitle tags" style="grid-column: 1/3">
@@ -3446,7 +3422,7 @@ No data found. Check your filters.
 Toggle Accuracy
 </div>
 <div class="toggleChartStyle button">
-<i class="fas fa-chart-line"></i>
+ <i class="fas fa-chart-line"></i>
 Toggle Chart Style
 </div>
 </div>
@@ -3492,7 +3468,7 @@ average wpm
 (last 10 tests)
 </div>
 <div class="val">-</div>
- </div>
+</div>
 <div class="group highestRaw">
 <div class="title">highest raw wpm</div>
 <div class="val">-</div>
@@ -3541,7 +3517,7 @@ avg consistency
 (last 10 tests)
 </div>
 <div class="val">-</div>
-</div>
+ </div>
 
 </div>
 <div class="group aboveHistory">
@@ -3645,7 +3621,7 @@ date
 
 </div>
 </div>
-<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6e3e45a0581363db',m:'JDcpo5l2gTHHEPhRYZxk.LPlPbT13lRiBYgvoKUpfrU-1645931970-0-ASyiVtRj3XLUDupUqvGxWoOUt73y169SnmL6zMk4IUKeLfy87JlWUKtCBBL+P276CM1hJbRPcToLouQFLc/ecTuSFoaMsPSBsmZr3TagFjthh3KVoeV4vsRkXBon0i+qIg==',s:[0x6b270c9629,0x6dc119d344],}})();</script>
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6e43e6c15bef17f7',m:'UjnMJmTmQxtKkuF_VAmEMnyg4WfLqQSYp.3Qjv7gqQI-1645990999-0-Acmtq4/Wt2RUMVcHzZAL9CB5BBtoy3MH6KeQHyv2EK5icBx6tajCpHrJ6oqgXUsqtW1mRnO339ZsEGGGjldSpiBMHusUYtk2gmh8rP6L+yQSbEKFN8W9+tCLNq5M4WRQOA==',s:[0x58180671ef,0xe6928ff62e],}})();</script>
 
 <script async="" src="./Monkeytype_files/js"></script>
 <script>
@@ -3675,4 +3651,4 @@ date
 <script src="./Monkeytype_files/api(1).js" async="" defer=""></script>
 <script src="./Monkeytype_files/monkeytype.js"></script>
 
-<canvas height="739" width="1507" style="position: fixed; top: 0px; left: 0px; pointer-events: none; z-index: 999999;"></canvas><div style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility 0s linear 0.3s, opacity 0.3s linear 0s; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;"><div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;"></div><div class="g-recaptcha-bubble-arrow" style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;"></div><div class="g-recaptcha-bubble-arrow" style="border: 10px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;"></div><div style="z-index: 2000000000; position: relative;"><iframe title="recaptcha challenge expires in two minutes" src="./Monkeytype_files/bframe.html" name="c-j38gxmlglduu" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox" style="width: 100%; height: 100%;"></iframe></div></div><div style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility 0s linear 0.3s, opacity 0.3s linear 0s; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;"><div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;"></div><div class="g-recaptcha-bubble-arrow" style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;"></div><div class="g-recaptcha-bubble-arrow" style="border: 10px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;"></div><div style="z-index: 2000000000; position: relative;"><iframe title="recaptcha challenge expires in two minutes" src="./Monkeytype_files/bframe(1).html" name="c-4p1bodvyo060" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox" style="width: 100%; height: 100%;"></iframe></div></div></body></html>
+<canvas height="740" width="1512" style="position: fixed; top: 0px; left: 0px; pointer-events: none; z-index: 999999;"></canvas><div style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility 0s linear 0.3s, opacity 0.3s linear 0s; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;"><div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;"></div><div class="g-recaptcha-bubble-arrow" style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;"></div><div class="g-recaptcha-bubble-arrow" style="border: 10px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;"></div><div style="z-index: 2000000000; position: relative;"><iframe title="recaptcha challenge expires in two minutes" src="./Monkeytype_files/bframe.html" name="c-tx17li17d61b" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox" style="width: 100%; height: 100%;"></iframe></div></div><div style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility 0s linear 0.3s, opacity 0.3s linear 0s; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;"><div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;"></div><div class="g-recaptcha-bubble-arrow" style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;"></div><div class="g-recaptcha-bubble-arrow" style="border: 10px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;"></div><div style="z-index: 2000000000; position: relative;"><iframe title="recaptcha challenge expires in two minutes" src="./Monkeytype_files/bframe(1).html" name="c-jth5ri6mfg2g" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox" style="width: 100%; height: 100%;"></iframe></div></div></body></html>

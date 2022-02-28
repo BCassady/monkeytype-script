@@ -3,6 +3,7 @@ import pyautogui
 import time
 
 
+# Download the html of the page
 pyautogui.keyDown('command')
 time.sleep(.1)  
 pyautogui.press('tab')
@@ -26,24 +27,28 @@ pyautogui.click()
 time.sleep(0.25)
 pyautogui.press('a')
 
+# Wait for the page to download
 time.sleep(3)
 
+# Read the file
 file = open('Monkeytype.html', 'r')
 html_doc = file.read() 
 
 soup = BeautifulSoup(html_doc, 'html.parser')
 
+# Read the words
 words = soup.find_all("div", {"class": "word"})
 
 result = ""
 
 for word in words:
+    # Read the letters and store
     letters = word.find_all("letter")
     for letter in letters:
         result += str(letter)[8]
     result += " "
 
 
-
+# Write the words
 pyautogui.write(result, interval = 0.005)
 
